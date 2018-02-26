@@ -1,8 +1,8 @@
 {
-    "name": "solutiondrive/hipchat-v2-api-client",
+    "name": "derschatta/hipchat-v2-api-client",
     "description": "Hipchat v2 API client",
     "keywords": ["hipchat","api","library","client","v2"],
-    "homepage": "https://github.com/gorkalaucirica/HipchatAPIv2Client",
+    "homepage": "https://github.com/derschatta/HipchatAPIv2Client",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,6 +15,10 @@
             "name": "Tobias Lückel",
             "email": "lueckel@solutiondrive.de",
             "homepage": "https://solutiondrive.de"
+        },
+        {
+            "name": "Fabian Derschatta",
+            "email": "fabian@derschatta.de",
         }
     ],
     "require": {

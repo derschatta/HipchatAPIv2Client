@@ -1,26 +1,27 @@
 # Hipchat v2 Api Client
 
-Based on [**gorkalaucirica/HipchatAPIv2Client**](https://github.com/gorkalaucirica/HipchatAPIv2Client)
+Based on [**solutiondrive/HipchatAPIv2Client**](https://github.com/solutiondrive/HipchatAPIv2Client)
 
 PHP Library to process calls to Hipchat's v2 REST API
 
-[![Latest Stable Version](https://poser.pugx.org/solutiondrive/hipchat-v2-api-client/v/stable)](https://packagist.org/packages/solutiondrive/hipchat-v2-api-client)
-[![Total Downloads](https://poser.pugx.org/solutiondrive/hipchat-v2-api-client/downloads)](https://packagist.org/packages/solutiondrive/hipchat-v2-api-client)
-[![Latest Unstable Version](https://poser.pugx.org/solutiondrive/hipchat-v2-api-client/v/unstable)](https://packagist.org/packages/solutiondrive/hipchat-v2-api-client)
-[![License](https://poser.pugx.org/solutiondrive/hipchat-v2-api-client/license)](https://packagist.org/packages/solutiondrive/hipchat-v2-api-client)
-[![Build Status](https://travis-ci.org/solutionDrive/HipchatAPIv2Client.svg?branch=master)](https://travis-ci.org/solutionDrive/HipchatAPIv2Client)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/solutionDrive/HipchatAPIv2Client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/solutionDrive/HipchatAPIv2Client/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/solutionDrive/HipchatAPIv2Client/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/solutionDrive/HipchatAPIv2Client/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/fe1dde4f-3158-45db-8f9a-315f97f2cd54/mini.png)](https://insight.sensiolabs.com/projects/fe1dde4f-3158-45db-8f9a-315f97f2cd54)
+[![Build Status](https://travis-ci.org/derschatta/HipchatAPIv2Client.svg?branch=master)](https://travis-ci.org/derschatta/HipchatAPIv2Client)
 
 *This package is work in progress and some functionality is not available yet.*
 
 ## Installation
 
 The recommended way to install Hipchatv2ApiClient is through [Composer](https://getcomposer.org).
-To install this library, run the command below and you will get the latest version:
+To install this library, add the following lines in your composer.json:
 
-    composer require solutiondrive/hipchat-v2-api-client
+      "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/derschatta/HipchatAPIv2Client"
+        }
+      ],
+      "require-dev": {
+        "derschatta/hipchat-v2-api-client": "dev-master"
+      }
     
 ## Usage
 
