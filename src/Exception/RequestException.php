@@ -2,7 +2,7 @@
 
 namespace SolutionDrive\HipchatAPIv2Client\Exception;
 
-use Throwable;
+use Exception;
 
 class RequestException extends \Exception implements RequestExceptionInterface
 {
@@ -18,9 +18,9 @@ class RequestException extends \Exception implements RequestExceptionInterface
      * @param string $message
      * @param int $code
      * @param string $type
-     * @param Throwable|null $previous
+     * @param Exception|null $previous
      */
-    public function __construct($message = "", $code = 0, $type = '', Throwable $previous = null)
+    public function __construct($message = "", $code = 0, $type = '', Exception $previous = null)
     {
         $this->responseCode = $code;
         $this->type = $type;
